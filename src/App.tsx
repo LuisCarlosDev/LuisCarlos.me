@@ -1,8 +1,15 @@
 import React from 'react';
+import Home from './pages/Home';
+import GlobalStyles from './styles/global'
+
+
 
 function App() {
   return (
-    <h1>Luis Carlos</h1>
+    <>
+      <GlobalStyles />
+      <Home />
+    </>
   );
 }
 
